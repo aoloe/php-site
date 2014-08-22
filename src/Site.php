@@ -4,8 +4,9 @@
  * values and methods for the site management
  */
 
-new Aoloe\Debug();
-use function Aoloe\debug as debug;
+namespace Aoloe;
+
+// use function Aoloe\debug as debug;
 
 class Site {
     private $path_relative = null;
